@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('../fonts/Montserrat-Regular.woff') format('woff');
+  }
+
+body {
+    font-family: 'Montserrat' !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blog__links {
+    min-height: 800px;
+}
+
+.workplace__header, .page_counter {
+    text-align: center;
+}
+
+.blog__links {
+    width: 100%;
+}
+
+.navigation {
+    /* max-width: 100px; */
+    flex-direction: row;
+}
+
+.navLink {
+    /* flex-direction: column; */
+    display: block;
+    padding: 10px;
+}
+
+.nav-li {
+    padding: 5px;
+    display: inline;
+    max-width: 100px;
+}
+
+.list-group-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.container__blog {
+    width: 85%;
+}
+
+#pagesLink {
+    color: #0d6efd;
+    cursor: pointer;
+}
